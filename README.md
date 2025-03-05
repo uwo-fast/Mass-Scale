@@ -15,7 +15,7 @@ Depending on the SSH client in use, this data can be logged and plotted -
 primarily for scientific uses.
 When an LCD is included in the system, the calibrated value is displayed with units.
 
-An improvement of [brhubbar / OS_Nano_Balance](https://github.com/brhubbar/OS_Nano_Balance.)
+An improvement of [brhubbar / OS_Nano_Balance](https://github.com/brhubbar/OS_Nano_Balance) and [].
 
 ## Power
 
@@ -42,11 +42,19 @@ This can be supplied by a computer or a 5V wall adapter.
 
 ## Printable Parts
 
-The bed, base, and face are parametrically designed in FreeCAD.
-Old designs created in OpenSCAD are available as well -
-these accommodate a TAL220 and TAL221 loadcell, but not an LCD.
-These parts can be printed for a few dollars (depending on the cost of your filament).
-If you are using an LCD, check the dimensions on `Face.FCStd` before printing.
+Two options exist: OpenSCAD and FreeCAD. Both are designed to be parametric such that they can adapt to various load cells and setups.
+
+### OpenSCAD
+
+Use the customizer window to alter the parameters.
+
+Dependancies:
+
+- [CameronBrooks11 / load-cell-scad](https://github.com/CameronBrooks11/load-cell-scad.git)
+
+### FreeCAD
+
+Open the spreadsheet to alter the parameters.
 
 ## Wiring
 

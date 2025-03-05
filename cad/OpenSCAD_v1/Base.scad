@@ -1,4 +1,4 @@
-/* OS Nano Balance - Cover: Accepts load cell, holds electronics.
+/* OS Nano Balance - Base: Accepts load cell, holds electronics.
     Copyright (C) 2019 Benjamin Hubbard
 
     This program is free software: you can redistribute it and/or modify
@@ -21,7 +21,7 @@ $fn = 50;
 use <LoadCellRx.scad>;
 
 // Snap Pieces.
-use <snap_joint.scad>;
+//use <snap_joint.scad>;
 
 // Bed dimensions.
 minkowskiDim = [ 10, 10, 1 ];
